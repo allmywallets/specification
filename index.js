@@ -1,1 +1,1 @@
-export module from './src/module'
+export Module from './src/module'

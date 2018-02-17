@@ -2,7 +2,6 @@
   "name": "@allmywallets/specification",
   "version": "0.0.1",
   "description": "AllMyWallets modules specification",
-  "main": "index.js",
   "author": "Quentin de Longraye",
   "license": "MIT",
   "url": "https://github.com/allmywallets/specification",

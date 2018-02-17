@@ -12,7 +12,7 @@ conventions are `name-module` for the repository name where name is your module 
 (you should adapt contents to your needs):
 
 ```js
-import { module } from '@allmywallets/specification'
+import { Module } from '@allmywallets/specification'
 import Name from './components/Name.vue'
 
 class NameModule extends Module {
