@@ -14,7 +14,8 @@
     "postinstall": "module-autoconf"
   },
   "bin": {
-    "module-build": "./bin/module-build"
+    "module-build": "./bin/module-build",
+    "module-autoconf": "./bin/module-autoconf"
   },
   "dependencies": {
     "webpack": "^3.11.0",
