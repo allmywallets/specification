@@ -21,6 +21,7 @@
     "@babel/preset-env": "^7.0.0-beta.40",
     "@babel/preset-stage-2": "^7.0.0-beta.40",
     "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "css-loader": "^0.28.9",
     "edit-json-file": "^1.0.8",
     "node-sass": "^4.7.2",
