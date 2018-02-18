@@ -10,12 +10,17 @@
     "url": "https://github.com/allmywallets/specification.git"
   },
   "scripts": {
-    "postinstall": "json -I -f package.json -e 'this.scripts = this.scripts || {}; this.scripts.start=\"module-build\"'",
     "start": "module-build"
   },
+  "bin": {
+    "module-build": "./bin/module-build"
+  },
   "dependencies": {
-    "json": "^9.0.6",
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-stage-2": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta.0"
   },
   "devDependencies": {
     "standard": "^10.0"
