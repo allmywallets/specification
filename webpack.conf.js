@@ -11,10 +11,10 @@ module.exports = {
     libraryTarget: "var"
   },
   resolve: {
-    extensions: ['.js', '.vue'],
-    alias: {
-      'vue$': path.resolve(__dirname, './src/vue.js')
-    }
+    extensions: ['.js', '.vue']
+  },
+  externals: {
+    vue: 'Vue'
   },
   module: {
     rules: [
