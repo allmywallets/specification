@@ -3,6 +3,8 @@
 This repository defines the specification which should be followed when creating
 AMW modules.
 
+[![npm (scoped)](https://img.shields.io/npm/v/@allmywallets/specification.svg)](https://www.npmjs.com/package/@allmywallets/specification)
+
 ## Creating a module
 
 1. Create a Git repository (only GitHub is supported for now). Standard naming
