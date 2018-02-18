@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const webpack = require('webpack')
+const conf = require('../webpack.conf')
+
+webpack(conf, (err, data) => {
+  if (err) {
+    console.error(err)
+    process.exit(1)
+  }
+
+  console.log('Module successfully compiled!')
+
+  process.exit(0)
+})

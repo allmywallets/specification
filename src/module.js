@@ -1,7 +1,8 @@
 /**
  * This module class should be extended by any AllMyWallets module
- * and all the methods should be overrode. The module should RETURN (not exporting)
- * a new instance of the class in a module.js file defined in library's dist folder.
+ * and all the methods should be overrode. The module should export
+ * a new instance of the class in an "instance" attribute, in a
+ * module.js file in your library's root folder.
  */
 export default class Module {
   /**
