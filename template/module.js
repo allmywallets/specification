@@ -47,6 +47,10 @@ class NameModule extends Module {
   compatibility () {
     return '>= 0.0.1'
   }
+
+  translations () {
+    return {}
+  }
 }
 
 export const instance = new NameModule()

@@ -73,4 +73,13 @@ export default class Module {
   compatibility () {
     return '>= 0.0.1'
   }
+
+  /**
+   * Translations for the module. It is recommended to generate translations.
+   *
+   * @returns {object}
+   */
+  translations () {
+    return {}
+  }
 }
