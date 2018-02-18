@@ -21,8 +21,13 @@
     "@babel/preset-env": "^7.0.0-beta.40",
     "@babel/preset-stage-2": "^7.0.0-beta.40",
     "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^0.28.9",
     "edit-json-file": "^1.0.8",
+    "node-sass": "^4.7.2",
+    "resolve-url-loader": "^2.2.1",
+    "sass-loader": "^6.0.6",
     "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
     "webpack": "^3.11.0"
   },
   "devDependencies": {
