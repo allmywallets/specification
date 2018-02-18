@@ -22,7 +22,10 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        include: path.resolve(process.cwd(), './')
+        include: path.resolve(process.cwd(), './'),
+        options: {
+          presets: ['@babel/preset-stage-2', '@babel/preset-env']
+        }
       },
       {
         test: /\.vue$/,
