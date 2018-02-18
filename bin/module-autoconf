@@ -24,4 +24,9 @@ if (!fs.existsSync(targetFile)) {
   const templateFile = path.resolve(__dirname, '../template/module.js')
 
   fs.createReadStream(templateFile).pipe(fs.createWriteStream(targetFile))
+
+  console.log(
+    'Your module has been configured.\n' +
+    'You should edit the ./module.js file and compile your module using the module-build command.'
+  )
 }
