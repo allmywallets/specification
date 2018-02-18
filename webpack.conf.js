@@ -3,7 +3,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: {
-    module: ['@babel/polyfill', path.resolve(process.cwd(), './module.js')]
+    module: path.resolve(process.cwd(), './module.js')
   },
   output: {
     path: path.resolve(process.cwd(), './dist'),
@@ -24,7 +24,8 @@ module.exports = {
         loader: 'babel-loader',
         include: path.resolve(process.cwd(), './'),
         options: {
-          presets: ['@babel/preset-stage-2', '@babel/preset-env']
+          presets: ['@babel/preset-stage-2', '@babel/preset-env'],
+          plugins: ['@babel/plugin-proposal-object-rest-spread']
         }
       },
       {
