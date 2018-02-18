@@ -14,6 +14,8 @@ if (!packages.get().scripts) {
 
 packages.set('scripts.start', 'module-build')
 
+packages.save()
+
 // Creates a template module.js file if it does not exists
 
 const targetFile = path.resolve('../../../module.js')
