@@ -10,7 +10,8 @@
     "url": "https://github.com/allmywallets/specification.git"
   },
   "scripts": {
-    "start": "module-build"
+    "start": "module-build",
+    "postinstall": "module-autoconf"
   },
   "bin": {
     "module-build": "./bin/module-build"
