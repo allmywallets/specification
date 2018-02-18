@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    'module': path.resolve(process.cwd(), './module.js')
+    module: path.resolve(process.cwd(), './module.js')
   },
   output: {
     path: path.resolve(process.cwd(), './dist'),
@@ -13,7 +13,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue'],
     alias: {
-      'module': path.resolve(process.cwd(), './module')
+      'vue$': path.resolve(__dirname, './src/vue.js')
     }
   },
   module: {

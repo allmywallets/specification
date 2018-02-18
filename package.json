@@ -22,6 +22,7 @@
     "@babel/preset-stage-2": "^7.0.0-beta.40",
     "babel-loader": "^8.0.0-beta.0",
     "edit-json-file": "^1.0.8",
+    "vue": "^2.5.13",
     "webpack": "^3.11.0"
   },
   "devDependencies": {

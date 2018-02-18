@@ -27,6 +27,6 @@ if (!fs.existsSync(targetFile)) {
 
   console.log(
     'Your module has been configured.\n' +
-    'You should edit the ./module.js file and compile your module using the module-build command.'
+    'You should edit the ./module.js file and compile your module using the command: npm run module-build'
   )
 }
