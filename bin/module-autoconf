@@ -6,7 +6,7 @@ const fs = require('fs')
 // Adds module-build script to package.json
 
 const editFile = require('edit-json-file')
-const packages = editFile(path.resolve(process.cwd(), './package.json'))
+const packages = editFile(path.resolve('../../../package.json'))
 
 if (!packages.get().scripts) {
   packages.set('scripts', {})
@@ -16,7 +16,7 @@ packages.set('scripts.start', 'module-build')
 
 // Creates a template module.js file if it does not exists
 
-const targetFile = path.resolve(process.cwd(), './module.js')
+const targetFile = path.resolve('../../../module.js')
 
 if (!fs.existsSync(targetFile)) {
   const templateFile = path.resolve(__dirname, '../template/module.js')
