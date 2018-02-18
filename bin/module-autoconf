@@ -16,6 +16,10 @@ packages.set('scripts.start', 'module-build')
 
 packages.save()
 
+// Copy Babel configuration
+
+fs.createReadStream(path.resolve(__dirname, '../template/.babelrc')).pipe(fs.createWriteStream(path.resolve('../../../.babelrc')))
+
 // Creates a template module.js file if it does not exists
 
 const targetFile = path.resolve('../../../module.js')
