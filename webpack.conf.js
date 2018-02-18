@@ -24,7 +24,7 @@ module.exports = {
         loader: 'babel-loader',
         include: path.resolve(process.cwd(), './'),
         options: {
-          presets: ['@babel/preset-stage-2', '@babel/preset-env']
+          presets: ['@babel/plugin-proposal-object-rest-spread', '@babel/preset-stage-2', '@babel/preset-env']
         }
       },
       {
